@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation task</title>
+    <style>
+        .tp{
+            height: 50vh;
+        }
+        @keyframes images {
+            10%{
+                background-image: url("../assets/images/1.jpg");
+                background-size: cover; 
+  
+            }
+            20%{
+               background-image: url("../assets/images/10.jpg");
+               background-size: cover; 
+            }
+            300%{
+                background-image: url("../assets/images/2.jpg");
+               background-size: cover;
+
+            }
+            40%{
+                background-image: url("../assets/images/8.jpg");
+               background-size: cover;
+            }
+            50%{
+                background-image: url("../assets/images/4.jpg");
+               background-size: cover;
+            }
+            60%{
+                background-image: url("../assets/images/5.jpg");
+               background-size: cover; 
+            }
+            70%{
+                background-image: url("../assets/images/9.jpg");
+               background-size: cover;
+            }
+            80%{
+                background-image: url("../assets/images/7.jpg");
+               background-size: cover; 
+            }
+            90%{
+                background-image: url("../assets/images/6.jpg");
+               background-size: cover;
+            }
+            100%{
+                background-image: url("../assets/images/3.jpeg");
+               background-size: cover;
+            } 
+        }
+        .top{
+            height: 400px;
+            width: 400px;
+            border:3px solid rgb(23, 18, 18);
+            border-radius: 50%;
+            transform: translate(600px,200px);
+            animation-name: images;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+           animation-direction: alternate;
+           background-size: cover;
+        }
+        .t1{
+            height: 20px;
+            width: 20px;
+            background-color: blueviolet;
+            margin-left: 20px;
+            border-radius: 50%;
+        }
+        .t2{
+            height: 40px;
+            width: 40px;
+            background-color: rgb(18, 203, 55);
+           /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            left: -500px;
+        }
+        .t3{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(117, 173, 207);
+            /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            left: 500px;  
+        }
+        .t4{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(131, 202, 66);
+            /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            bottom: 450px;  
+        }
+        .t5{
+            height: 80px;
+            width: 80px;
+            background-color: rgb(197, 176, 18);
+            /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            top: 420px;
+            left: 20px;
+        }
+        .t6{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(192, 183, 119);
+            /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            bottom: 450px;
+            left: 650px; 
+        }
+        .t7{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(30, 170, 114);
+            /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            top: 420px;
+            right: 650px;  
+        }
+        .t8{
+            height: 30px;
+            width: 30px;
+            background-color: rgb(127, 213, 21);
+            /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            top: 250px;
+            left: 500px;  
+        }
+        .t9{
+            height: 70px;
+            width: 70px;
+            background-color: rgb(170, 20, 132);
+            /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            top: 400px;
+            left: 800px;  
+        }
+        .t10{
+            height: 120px;
+            width: 120px;
+            background-color: rgb(170, 20, 132);
+            /* margin-top: 40px; */
+            border-radius: 50%; 
+            position: absolute;
+            bottom: 100px;
+            right: 500px;  
+        }
+        .image{
+            position: absolute;
+            top: 420px;
+            left: 240px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top ">
+        
+            <div class="t1"></div>
+            <div class="t2"></div>
+            <div class="t3"></div>
+            <div class="t4"></div>
+            <div class="t5"></div>
+            <div class="t6"></div>
+            <div class="t7"></div>
+            <div class="t8"></div>
+            <div class="t9"></div>
+            <div class="t10"></div>
+            <div class="image">
+            <audio controls autoplay >
+                <source src="../assets/audio/[iSongs.info] 07 - Devil Title Track.mp3">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
